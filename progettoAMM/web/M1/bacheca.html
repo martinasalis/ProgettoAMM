@@ -1,16 +1,72 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
+    
     <head>
-        <title>TODO supply a title</title>
+        <title>NerdBook - La tua bacheca</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="widt=device-width, initial-scale=1.0">
+        <meta name="author" content="Martina Salis">
+        <meta name="keywords" content="Cerca amici">
     </head>
+    
     <body>
-        <div>TODO write content</div>
+        <!--header contenente in titolo della pagina-->
+        <header>
+            <div id="title">
+                <h1>Nerdbook</h1>
+            </div>
+        </header>  
+        
+        <!--Barra di navigazione-->
+        <nav>
+            <ul>
+                <li><a href="descrizione.html">Descrizione</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+        
+        <!--Contenuti della pagina-->
+        <div id="post">
+            <h2>Bacheca</h2>
+            <div id="post1">
+                <h3>Gino</h3>
+                <img title="fotoProfilo" alt="Foto Profilo" src="img/gino.jpg">
+                <!--post con testo-->
+                <div>
+                    <p>
+                        “La vita deve essere vissuta, non controllata; <br />
+                        e l’umanità è vinta se continua a giocare di fronte ad una sconfitta certa”
+                    </p>
+                </div>
+            </div>
+            
+            <div id="post2">
+                <h3>Lucilla</h3>
+                <img title="fotoProfilo" alt="Foto Profilo" src="img/lucilla.jpg">
+                <!--post con testo e immagine-->
+                <div>
+                    <p>
+                        Jiggaly...puff...jiggaly...puff! <br />
+                        Jiggaly...puff...jiggaly...
+                    </p>
+                    <img alt="post con foto" src="img/jigglypuff.jpg" width="500" height="500">
+                </div>
+            </div>
+            
+            <div id="post3">
+                <h3>Lollo</h3>
+                <img title="fotoProfilo" alt="Foto Profilo" src="img/lollo.jpg">
+                <!--post con testo e link esterno-->
+                <div>
+                    <p>
+                        “Because maybe, you're gonna be the one that saves me <br /> 
+                        And after all, you're my wonderwall”
+                    </p>
+                    <a href="https://www.youtube.com/watch?v=bx1Bh8ZvH84"> Oasis - Wanderwall</a> <br />
+                </div>  
+            </div>
+            
+        </div>
+        
     </body>
 </html>
