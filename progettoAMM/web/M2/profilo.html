@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Profilo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="widt=device-width, initial-scale=1.0">
+        <meta name="author" content="Martina Salis">
+        <meta name="keywords" content="Cerca amici">
+        
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+    </head>
+ 
+    <body>
+        <!--header contenente in titolo della pagina-->
+        <header>
+            <div id="title">
+                <h1>NerdBook</h1>
+            </div>
+        </header>   
+        
+        <!--Barra di navigazione-->
+        <nav>
+            <ul>
+                <li><a href="descrizione.html">Descrizione</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+        
+        <!--Contenuti della pagina-->
+        <div id="divBody">
+            <div id="altro">
+                <div id="persone">
+                    <h3>Persone</h3>
+                    <ul>
+                        <li>Giulia Ricci</li>
+                        <li>Michele Marini</li>
+                        <li>Valerio Rossi</li>
+                    </ul>
+                </div>
+
+                <div id="gruppi">
+                    <h3>Gruppi</h3>
+                    <ul>
+                        <li>Amici degli animali</li>
+                        <li>Giramondo</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="formIscrizione">
+                <form action="servlet.java" method="post">
+                    <div>
+                        <label for="name">Nome: </label>
+                        <input type="text" name="nome" id="name" value="Inserisci il nome" /><br />
+                    </div> 
+                    <div>
+                        <label for="surname">Cognome: </label>
+                        <input type="text" name="cognome" id="surname" value="Inserisci il cognome" /><br />
+                    </div>
+                    <div>
+                        <label for="presentation">Descrizione: </label>
+                        <textArea rows="4" cols="20" name="presentation" id="presentation"> </textArea> <br />
+                    </div>
+                    <div>
+                        <label for="bday">Compleanno: </label>
+                        <input type="date" name="bday" id="bday"/><br />
+                    </div>
+                    <div>
+                        <label for="psw">Password: </label>
+                        <input type="password" name="password" id="psw" /><br />
+                    </div>
+                    <div>
+                        <label for="cpsw">Conferma password:</label>
+                        <input type="password" name="cPassword" id="cpsw" /><br />
+                    </div>    
+                        <button type="submit">Aggiorna</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
