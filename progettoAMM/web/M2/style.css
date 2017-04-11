@@ -62,6 +62,10 @@ a:active{
     color: #0E007F;
 }
 
+.active{
+    background-color: #56DEFF;
+}
+
 nav{
     font: "Avenir Book", Arial, sans-serif;
     font-size: 20px;
