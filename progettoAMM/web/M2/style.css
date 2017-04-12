@@ -536,3 +536,9 @@ header{
         margin-right: 200px;
     }
 }
+
+/*Le immagini decorative sono quelle alla sinistra dei dei gruppi
+e delle persone; ma anche quella dell'omino di logout e del post personale
+iniziale. Le altre immagini sono considerate le immagini del profilo 
+personale, quelle inserite nell'html, e l'immagine postata da un utente
+con dimensione esatta.*/
