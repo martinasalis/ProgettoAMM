@@ -19,7 +19,7 @@ body{
 }
 
 h1{
-    color: #000080;
+    color: #E0FFFF;
     font: 23px "Avenir Book", Arial, sans-serif;
     font-weight: bold;
     margin-bottom: 0px;
@@ -37,7 +37,11 @@ h3{
     font-weight: bold; 
 }
 
+p{
+    font: 10px "Avenir Book", Arial, sans-serif;
+}
 a{
+    color: #E0FFFF;
     display: block;
     padding: 8px;
 }
@@ -45,7 +49,7 @@ a{
 a:link{
     font-size: 20px;
     text-decoration: none;
-    color: #00B4CB;
+    color: #E0FFFF;
 }
 
 a:visited{
@@ -55,6 +59,7 @@ a:visited{
 }
 
 a:hover{
+    color: #E0FFFF;
     font-weight: bold;
 }
 
@@ -62,9 +67,6 @@ a:active{
     color: #0E007F;
 }
 
-.active{
-    background-color: #56DEFF;
-}
 
 nav{
     font: "Avenir Book", Arial, sans-serif;
@@ -73,11 +75,11 @@ nav{
     width: 100%;
     border-bottom: 1px solid;
     height: 50px;
-    border-color: #000080;
+    border-color: #E0FFFF;
+    background-color: #000080;
 }
 
 nav ol, nav li, nav ul{
-    
     list-style-type: none;
     display: inline-block;
 }
@@ -94,7 +96,7 @@ nav li{
 
 nav li:first-child{
     border-left: 1px solid;
-    border-color: #000080;
+    border-color: #E0FFFF;
     height: 45px;
 }
 
@@ -106,15 +108,6 @@ header{
     margin-left: 30px;*/
     /*margin-right: 30px;
     margin-bottom: 5px;*/
-}
-
-.titleLeft{
-    font: 20px "Avenir Book", Arial, sans-serif;
-    text-align: left;
-    width: 20%;
-    width: 220px;
-    margin-left: 30px;
-    float: left;
 }
 
 #divBody{
@@ -247,6 +240,7 @@ header{
     margin-left: 80px;
     width: 100px;
     height: 100px;
+    margin-top: 30px;
 }
     
 #altro {
@@ -262,7 +256,7 @@ header{
 }
 
 #post{     
-    width: 100%;
+    width: auto;
     height: 100%;
     margin-left: 250px;
     margin-right: auto;
@@ -273,12 +267,12 @@ header{
 }
 
 .posts{
-    width: 80%;
+    width: 100%;
     height:100%;
     font: "Avenir Book", Arial, sans-serif;
     font-size: 20px;
     text-align: left;
-    background-color: #56DEFF;
+    background-color: #7CEAFF;
     border-radius: 5px;
     padding: 15px;
     margin-bottom: 10px;
@@ -317,5 +311,208 @@ header{
 
 @media only screen and (min-width: 1024px){
     
+    nav{
+        font: "Avenir Book", Arial, sans-serif;
+        font-size: 10px;
+        text-align: left;
+        width: 100%;
+        border-bottom: 1px solid;
+        height: 50px;
+        border-color: #E0FFFF;
+    }
+
+    nav ol, nav li, nav ul{
+        font-size: 1px;
+        list-style-type: none;
+        display: inline-block;
+    }
+    nav ul{
+        margin-top: 0px;
+        padding-left: 0px;
+        float: none;
+    }
+
+    nav li{
+        border-right: 1px solid;
+        height: 45px;
+        padding-top: 5px;
+    }
     
+    .active{
+        background-color: #56DEFF;
+    }
+    .active a{
+        color: #000080;
+    }
+
+    .titleLeft{
+        font: 20px "Avenir Book", Arial, sans-serif;
+        text-align: left;
+        width: 20%;
+        width: 220px;
+        margin-left: 30px;
+        float: left;
+    }
+
+    #altro {
+        /*background-color: #56DEFF;*/
+        height: 100%;
+        width: 248px;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding-bottom: 84.95%;
+        /*box-shadow: 0 0 10px rgba(0,0,0,.2);
+        border-radius: 5px;*/
+        float: left;
+    }
+
+    #post{     
+        width: auto;
+        height: 100%;
+        margin-left: 250px;
+        margin-right: 0px;
+        margin-bottom: 100%;
+        padding-bottom: 35px;
+        padding-left: 5px;
+        padding-right: 35px;
+    }
+
+    .posts{
+        width: 100%;
+        height: 100%;
+        font: "Avenir Book", Arial, sans-serif;
+        font-size: 20px;
+        text-align: left;
+        background-color: #7CEAFF;
+        border-radius: 5px;
+        padding: 15px;
+        margin-right: 5px;
+        margin-bottom: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,.2);
+    }
+    .name{
+        content: '\A';
+        white-space: pre;
+    }
+    
+    .profileImg img{
+       float: left;
+    }
+}
+
+@media only screen and (max-width: 480px){
+ 
+    nav{
+        font: "Avenir Book", Arial, sans-serif;
+        background-color: #56DEFF;
+        box-shadow: 0 0 10px rgba(0,0,0,.2);
+        border-radius: 5px;
+        font-size: 20px;
+        text-align: center;
+        /*width: 100%;
+        border-bottom: 1px solid;
+        height: 50px;
+        border-color: #000080;*/
+        border: none;
+        width: 410px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    nav ol, nav li, nav ul{
+        font-size: 10px;
+        list-style-type: none;
+    }
+    nav ul a{
+        padding: 1px;
+    }
+    
+    nav ul{
+        margin-top: 0px;
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+
+    nav li{
+        border: none;
+        height: 45px;
+    }
+    
+    nav li:first-child{
+        border: none;
+    }
+    
+    .titleLeft h1{
+        font-size: 50px;
+        text-align: center;
+        float: none;
+    }
+
+    .titleLeft{
+        margin-bottom: 50px;
+        float: none;
+    }
+    header h1{
+        text-align: center;
+    }
+    
+    #altro {
+        background-color: #56DEFF;
+        box-shadow: 0 0 10px rgba(0,0,0,.2);
+        border-radius: 5px;
+        height: auto;
+        width: auto;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        padding: 5px;
+        padding-bottom: 1px;
+        text-decoration: none;
+        /*box-shadow: 0 0 10px rgba(0,0,0,.2);
+        border-radius: 5px;*/
+        float: none;
+    }
+    
+    #altro h3{
+        text-align: center;
+    }
+    
+    #altro ul{
+        margin-left: 120px;
+    }
+
+    #post{     
+        width: auto;
+        height: auto;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: auto;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .posts{
+        width: auto;
+        height: 100%;
+        font: "Avenir Book", Arial, sans-serif;
+        font-size: 20px;
+        text-align: left;
+        background-color: #7CEAFF;
+        border-radius: 5px;
+        padding: 15px;
+        margin-right: 5px;
+        margin-bottom: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,.2);
+    }
+    .name{
+        content: '\A';
+        white-space: pre;
+    }
+    
+    .profileImg img {
+        float: none;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
 }
