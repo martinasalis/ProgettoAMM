@@ -1,0 +1,626 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28-mar-2017, 11.50.48
+    Author     : martinasalis
+*/
+
+body{
+    background-color: #E0FFFF;
+    font: 17px/25px "Avenir Book", Arial, sans-serif;
+    margin-top: 0px;
+    margin: 0px;
+    width: auto;
+    height: auto;
+    padding-top: 0px;
+}
+
+h1{
+    color: #E0FFFF;
+    font: 23px "Avenir Book", Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+h2{
+    color: #000080;
+    font: 25px "Avenir Book", Arial, sans-serif;
+    font-weight: bold; 
+}
+
+h3{
+    color: #000080;
+    font: 20px "Avenir Book", Arial, sans-serif;
+    font-weight: bold; 
+}
+
+p{
+    font: 15px "Avenir Book", Arial, sans-serif;
+}
+a{
+    color: #E0FFFF;
+    display: block;
+    padding: 8px;
+}
+
+a:link{
+    font-size: 20px;
+    text-decoration: none;
+    color: #E0FFFF;
+}
+
+a:visited{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #E0FFFF;
+    font-weight: bold;
+}
+
+a:active{
+    color: #0E007F;
+}
+
+
+nav{
+    font: "Avenir Book", Arial, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    width: 100%;
+    border-bottom: 1px solid;
+    height: 50px;
+    border-color: #E0FFFF;
+    background-color: #000080;
+}
+
+nav ol, nav li, nav ul{
+    list-style-type: none;
+    display: inline-block;
+}
+nav ul{
+    margin-top: 0px;
+    padding-left: 0px;
+}
+
+#divNavSez a{
+    color: #000080;
+}
+
+nav li{
+    border-right: 1px solid;
+    height: 45px;
+    padding-top: 5px;
+}
+
+nav li:last-child{
+    color: #E0FFFF;
+}
+
+nav li:first-child{
+    border-left: 1px solid;
+    border-color: #E0FFFF;
+    height: 45px;
+}
+
+header{
+    font: 20px "Avenir Book", Arial, sans-serif;
+}
+
+#divBody{
+    margin-bottom: 30px;
+    margin-top: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+#divBody h2{
+    display: none;
+}
+
+.titleCenter h1{
+    font-size: 50px;
+    text-align: center;
+    float: none;
+}
+
+.titleCenter{
+    margin-bottom: 50px;
+}
+
+.titleCenter h1{
+    color: #000080;
+}
+
+#formLogin{
+    background-color: #56DEFF;
+    height: 210px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding: 35px;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+
+#formLogin label{
+    font: 20px "Avenir Book", Arial, sans-serif;
+    color: #000080;
+    font-weight: bold; 
+}
+
+#formLogin label:after{
+    font: 20px "Avenir Book", Arial, sans-serif;
+    content: '\A';
+    white-space: pre;
+}
+
+#formLogin input{
+    font: 15px "Avenir Book", Arial, sans-serif;
+    color: #000000;
+    height: 20px;
+    width: 98.5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-style: solid;
+    border-color: #00004d;
+}
+
+#formLogin button {
+    font: 20px "Avenir Book", Arial, sans-serif;
+    color: #000080;
+    height: 40px;
+    width: 100%;
+    padding-top: 3px;
+    border-radius: 5px;
+    background-color: #BBFFFF;
+    border-color: #C1CDCD;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+
+#formIscrizione {     
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 35px;
+    padding-left: 35px;
+    padding-right: 35px;
+} 
+    
+#formIscrizione input { 
+    font: 15px "Avenir Book", Arial, sans-serif;
+    color: #000000;
+    height: 20px;
+    width: 53.2%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-style: solid;
+    border-color: #00004d;
+} 
+
+#formIscrizione textarea{
+    height: 25px;
+    width: 53.2%;
+}
+    
+#formIscrizione textarea:focus{
+    border-style: solid;
+    border-color: #00004d;
+}
+
+#formIscrizione label { 
+    font: 15px "Avenir Book", Arial, sans-serif;
+    color: #000080;
+    font-weight: bold;
+    display: inline-block; 
+    text-align:left; 
+    width:150px; 
+    height: 25px;
+    padding: 10px 0;
+    padding-bottom: 5px;
+} 
+
+#formIscrizione button{
+    font: 20px "Avenir Book", Arial, sans-serif;
+    color: #000080;
+    height: 40px;
+    width: 100%;
+    padding-top: 3px;
+    border-radius: 5px;
+    background-color: #BBFFFF;
+    border-color: #C1CDCD;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+
+#cancel input{
+    font: 20px "Avenir Book", Arial, sans-serif;
+    color: #000080;
+    height: 40px;
+    width: 100%;
+    padding-top: 3px;
+    border-radius: 5px;
+    background-color: #BBFFFF;
+    border-color: #C1CDCD;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+
+#formNewPost {     
+    width: auto;
+    height: 100%;
+    margin-left: 250px;
+    margin-right: auto;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 35px;
+} 
+
+#newPost{
+    width: 100%;
+    height:100%;
+    font: "Avenir Book", Arial, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    background-color: #7CEAFF;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+    
+#postContent input { 
+    font: 15px "Avenir Book", Arial, sans-serif;
+    color: #000000;
+    height: 100%;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-style: solid;
+    border-color: #00004d;
+} 
+
+#formNewPost textarea{
+    height: 100%;
+    width: 100%;
+}
+    
+#formNewPost textarea:focus{
+    border-style: solid;
+    border-color: #00004d;
+}
+
+#formNewPost label { 
+    font: 15px "Avenir Book", Arial, sans-serif;
+    color: #000080;
+    font-weight: bold;
+    display: inline-block; 
+    text-align:left; 
+    width: auto; 
+    height: auto;
+    padding: 10px 0;
+    padding-bottom: 5px;
+} 
+
+#formNewPost button {
+    font: 20px "Avenir Book", Arial, sans-serif;
+    color: #000080;
+    height: 40px;
+    width: 100%;
+    padding-top: 3px;
+    border-radius: 5px;
+    background-color: #BBFFFF;
+    border-color: #C1CDCD;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+
+#postType input{
+    height: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#img{
+    padding-right: 5%;
+    float: left;
+}
+
+#search{
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-bottom: 0px;
+    float: bottom;
+}
+
+#search input{
+    font: 15px "Avenir Book", Arial, sans-serif;
+    color: #000000;
+    font-weight: bold;
+    display: inline-block; 
+    text-align:left; 
+    width: 240px;
+    height: auto;
+    padding: 10px 0;
+    padding-bottom: 5px;
+}
+
+.profileImg img{
+    float: left;
+    margin-left: 80px;
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+}
+    
+#altro {
+    height: 100%;
+    width: 248px;
+    margin-left: 0px;
+    margin-right: 5px;
+    padding-bottom: 84.95%;
+    float: left;
+}
+
+#altro a{
+    color: #000080;
+}
+
+a:link{
+    color: #E0FFFF;
+}
+
+#post{     
+    width: auto;
+    height: 100%;
+    margin-left: 250px;
+    margin-right: auto;
+    margin-bottom: 100%;
+    padding-bottom: 35px;
+    padding-left: 5px;
+    padding-right: 35px;
+}
+
+.posts{
+    width: 100%;
+    height:100%;
+    font: "Avenir Book", Arial, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    background-color: #7CEAFF;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+.name{
+    content: '\A';
+    white-space: pre;
+}
+
+.name h3{
+    margin: 0px;
+}
+
+.text{
+    font: "Avenir Book", Arial, sans-serif;
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+.profilePic{
+    font: 20px "Avenir Book", Arial, sans-serif;
+}
+
+.profilePic img {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    float: left;
+}
+
+.posts img{
+    max-width: 350px;
+    max-height: 350px;
+}
+
+#logout{
+    float: right;
+}
+
+#logout img{
+    width: 25px;
+    height: 25px;
+    margin: 2px;
+    float: left;
+}
+
+#logout p{
+    font: "Avenir Book", Arial, sans-serif;
+    font-size: 10px;
+    color: #E0FFFF;
+    margin-top: 0px;
+    margin: 3px;
+    padding: 5px;
+    float: left;
+}
+
+#logout button{
+    float: right;
+}
+
+#logout a{
+    font: "Avenir Book", Arial, sans-serif;
+    font-size: 10px;
+    padding: 0px;
+}
+
+
+
+@media only screen and (min-width: 1024px){
+    
+    nav{
+        font-size: 10px;
+    }
+
+    nav ol, nav li, nav ul{
+        font-size: 1px;
+    }
+    
+    nav ul{
+        float: none;
+    }
+    
+    .active{
+        background-color: #56DEFF;
+    }
+    .active a{
+        color: #000080;
+    }
+
+    .titleLeft{
+        font: 20px "Avenir Book", Arial, sans-serif;
+        text-align: left;
+        width: 20%;
+        width: 220px;
+        margin-left: 30px;
+        float: left;
+    }
+
+    #altro {
+        margin-left: 5px;
+    }
+    
+
+    #post{     
+        margin-right: 0px;
+    }
+
+    .posts{
+        margin-right: 5px;
+    }
+    
+    .profileImg img{
+       float: left;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 480px){
+ 
+    h1{
+        color: #000080;
+    }
+    
+    a{
+        color: #000080;
+    }
+    
+    nav{
+        background-color: #56DEFF;
+        box-shadow: 0 0 10px rgba(0,0,0,.2);
+        border-radius: 5px;
+        text-align: center;
+        border: none;
+        width: 410px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    nav ol, nav li, nav ul{
+        font-size: 10px;
+    }
+    
+    nav ul a{
+        padding: 1px;
+    }
+    
+    nav ul{
+        padding-top: 10px;
+    }
+
+    nav li{
+        border: none;
+    }
+    
+    nav li:first-child{
+        border: none;
+    }
+    
+    .titleLeft h1{
+        font-size: 50px;
+        text-align: center;
+        float: none;
+    }
+
+    .titleLeft{
+        margin-bottom: 50px;
+        float: none;
+    }
+    header h1{
+        text-align: center;
+    }
+    
+    #altro {
+        background-color: #56DEFF;
+        box-shadow: 0 0 10px rgba(0,0,0,.2);
+        border-radius: 5px;
+        height: auto;
+        width: auto;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        padding: 5px;
+        padding-bottom: 1px;
+        text-decoration: none;
+        float: none;
+    }
+    
+    #altro h3{
+        text-align: center;
+    }
+    
+    #altro ul{
+        margin-left: 120px;
+    }
+
+    #post{     
+        height: auto;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: auto;
+        padding-bottom: 5px;
+        padding-right: 5px;
+    }
+
+    .posts{
+        width: auto;
+        text-align: left;
+        margin-right: 5px;
+    }
+    
+    .profileImg img {
+        float: none;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    
+    #formNewPost {     
+        margin-left: 0px;
+    } 
+}
+
+/*Le immagini decorative sono quelle alla sinistra dei dei gruppi
+e delle persone; ma anche quella dell'omino di logout e del post personale
+iniziale. Le altre immagini sono considerate le immagini del profilo 
+personale, quelle inserite nell'html, e l'immagine postata da un utente
+con dimensione esatta.*/
